@@ -3,6 +3,12 @@ import signal
 import sys
 import platform
 
+#Integrantes
+#João Antonnio Martinez - 23.00983-7
+#Victor Codinhoto Batista - 23.00051-0
+#Carlos Antonio dos santos Roth Gorham - 24.95009-2
+#Daniel Djinishian de Briquez - 22.00251-0
+
 def fork_process():
     pid = os.fork()
     if pid == 0:
